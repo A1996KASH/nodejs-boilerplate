@@ -1,6 +1,4 @@
-# RocketSkills Backend
-
-This Application provides the REST API's for RocketSkills
+# Backend
 ## Installation of Node Packages
 
 Use the package manager [npm](http://www.npmjs.com) to install dependencies.
@@ -28,5 +26,3 @@ Please make sure to update tests as appropriate.
 ```
 PORT=3000
 ```
-## License
-[RocketSkills](https://rocketskills.in/)
