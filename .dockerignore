@@ -1,0 +1,11 @@
+/node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.env.example# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore

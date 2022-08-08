@@ -1,0 +1,63 @@
+{
+  "name": "nodejsboilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon NODE_ENV=development index.js",
+    "start": "NODE_ENV=production node index.js",
+    "seed": "node ./seeder/seeder.js -i",
+    "destroy-data": "node ./seeder/seeder.js -d",
+    "addUsers": "node ./seeder/seeder.js -u",
+    "test": "NODE_ENV=test jest "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A1996KASH/nodejsboilerplate.git"
+  },
+  "author": "Akash Sengar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A1996KASH/nodejsboilerplate/issues"
+  },
+  "homepage": "https://github.com/A1996KASH/nodejsboilerplate#readme",
+  "devDependencies": {
+    "eslint": "^7.12.0",
+    "eslint-config-standard": "^15.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "jest": "^26.6.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^5.0.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.779.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "bodymen": "^1.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.9",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.0.0",
+    "helmet": "^4.1.1",
+    "hpp": "^0.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.3.0",
+    "node-cron": "^2.0.3",
+    "node-geocoder": "^3.27.0",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "saslprep": "^1.0.3",
+    "sequelize": "^6.6.5",
+    "shortid": "^2.2.16",
+    "slugify": "^1.3.5",
+    "sqs-consumer": "^5.4.0",
+    "xss-clean": "^0.1.1"
+  }
+}
